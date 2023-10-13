@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    align-self: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.contact-container {
+            display: flex;
+            align-items: flex-start; /* Align the content at the top */
+        }
+
+        .map {
+            flex: 1;
+            background-color: black;
+            text-align: center;
+            color: white; /* White text for inputs */
+            justify-content: center;
+        }
+
+        .contact-form {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+
+        .contact-form input{
+            width: 80%;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #222227; /* Darker gray background for inputs */
+            color: white; /* White text for inputs */
+            font-size: 16px;
+        }
+.contact-form textarea{
+            width: 90%;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #222227; /* Darker gray background for inputs */
+            color: white; /* White text for inputs */
+            font-size: 16px;
+
+}
+
+
+        .contact-form button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: #222227; /* Darker gray background for inputs */
+            color: white; /* White text for inputs */
+            font-size: 16px;
+        }
+        .contact-form button:hover{
+            background: linear-gradient(to right, #222227 50%, #fff 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+        }
+        .contact-form .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px; /* Add space between rows */
+
+        }
+
+        .contact-form .input-container {
+            flex: 1;
+            margin-right: 10px; /* Add space between columns */
+        }
+
+        .contact-form .input-container:last-child {
+            margin-right: 0; /* Remove margin for the last column */
+        }
+

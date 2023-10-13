@@ -1,0 +1,25 @@
+/* Apply styles to the header row */
+.header-row {
+    background-color: green;
+    color: white;
+}
+
+/* Apply styles to table rows */
+.custom-table {
+    border-collapse: collapse;
+    width: 80%;
+    border-radius: 8px; /* Add border-radius to the table */
+    overflow: hidden; /* Hide overflowing border-radius */
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #000; /* Add table borders */
+    padding: 8px;
+    text-align: left;
+}
+
+/* Apply styles to hovered rows */
+.hovered-row:hover {
+    color: green;
+    background-color: lightgrey; /* Change background color when hovered */
+}
